@@ -1,0 +1,101 @@
+.span-message {
+	display:none;
+	color:#777e85;
+	font-family:Berlin Sans FB Demi, Bahnschrift;
+}
+
+
+.image-container {
+	position:absolute;
+	width:100%;
+	height:0%;
+}
+
+.frame-back {
+	position:relative;
+	width:560px;
+	top:50%;
+	left:50%;
+	margin-top:-160px;
+	margin-left:-280px;
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+}
+
+.frame-front {
+	position:relative;
+	width:560px;
+	top:50%;
+	left:50%;
+	margin-top:-320px;
+	margin-left:-280px;
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+}
+
+.curtain {
+	position:relative;
+	/*height:320px;*/
+	width:560px;
+	top:50%;
+	left:50%;
+	margin-top:-160px;
+	margin-left:-280px;
+	overflow:hidden;
+}
+
+.left-btn {
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-left:-280px;
+	margin-top:-32px;
+	height:32px;
+	width:32px;
+	background:url(../sliderImg/btnLeft.png) no-repeat;
+	background-size:cover;
+	z-index:20;
+	border:none;
+	outline:none;
+}
+
+.left-btn:hover {
+	background:url(../sliderImg/btnLeftHover.png) no-repeat;
+	background-size:cover;
+}
+
+.left-btn:active {
+	background:url(../sliderImg/btnLeftClick.png) no-repeat;
+	background-size:cover;	
+}
+
+.right-btn {
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-left:246px;
+	margin-top:-38px;
+	height:32px;
+	width:32px;
+	background:url(../sliderImg/btnRight.png) no-repeat;
+	background-size:cover;
+	z-index:20;
+	border:none;
+	outline:none;
+}
+
+.right-btn:hover {
+	background:url(../sliderImg/btnRightHover.png) no-repeat;
+	background-size:cover;	
+}
+
+.right-btn:active {
+	background:url(../sliderImg/btnRightClick.png) no-repeat;
+	background-size:cover;	
+}
+
+.rotated90deg{
+  -ms-transform: rotate(-90deg); /* IE 9 */
+  -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+  transform: rotate(-90deg);
+}
